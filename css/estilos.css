@@ -199,11 +199,35 @@ footer {
     cursor: pointer;
 }
 
-button {
+button.hamburger-menu {
     background-color: transparent;
     border: none;
     border-radius: 5px;
     color: white;
+}
+
+.agregar{
+    display: block;
+    background: var(--color-primario);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 5px 15px 7px;
+    text-decoration: none;
+}
+.agregar:hover{
+    background: #c13e3e;
+    cursor: pointer;
+}
+
+button[type="submit"]{
+    background-color: var(--color-primario);
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 25px 0;
 }
 
 /*
